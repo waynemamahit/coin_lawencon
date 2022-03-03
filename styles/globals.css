@@ -1,16 +1,37 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import '~antd/dist/antd.css';
+
+.site-layout-content {
+  min-height: 75vh;
+  padding: 24px;
+  margin-top: 18px;
+  background: #fff;
+  overflow: auto;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.logo {
+  float: left;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
 }
 
-* {
-  box-sizing: border-box;
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.page-title {
+  color: blue;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+table.detailCoin td {
+  padding-top: 25px;
+  padding-top: 25px;
+  padding-right: 50px; 
+}
+
+td.detail-value {
+  font-weight: bold;
 }
